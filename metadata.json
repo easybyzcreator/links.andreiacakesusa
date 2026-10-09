@@ -1,0 +1,6 @@
+{
+  "name": "Links Andréia Cakes USA",
+  "description": "Página oficial de links da Andréia Cakes USA: Cursos de Confeitaria nos EUA, Aplicativo para alunas e clientes, mentorias e ferramentas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

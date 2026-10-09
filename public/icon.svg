@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#FAF7F2"/>
+  <circle cx="256" cy="256" r="210" fill="#B85D3B" fill-opacity="0.1"/>
+  <circle cx="256" cy="256" r="180" fill="#B85D3B"/>
+  <!-- Cake / Bakery silhouette -->
+  <path d="M190 320h132c11 0 20-9 20-20v-40H170v40c0 11 9 20 20 20z" fill="#FFF8F3"/>
+  <path d="M170 250c0-6 4-10 10-10h152c6 0 10 4 10 10v10H170v-10z" fill="#E8B595"/>
+  <path d="M205 240h102c8 0 15-7 15-15v-35H190v35c0 8 7 15 15 15z" fill="#FFF8F3"/>
+  <path d="M190 190c0-5 4-9 9-9h124c5 0 9 4 9 9v0H190v0z" fill="#E8B595"/>
+  <!-- Candle -->
+  <rect x="250" y="145" width="12" height="36" rx="6" fill="#FFF8F3"/>
+  <path d="M256 122c-4 7-8 13-3 18 3 3 7 3 10 0 5-5 1-11-7-18z" fill="#F4B042"/>
+  <!-- Star sparkles -->
+  <path d="M370 160l4 12 12 4-12 4-4 12-4-12-12-4 12-4 4-12z" fill="#F4B042"/>
+  <path d="M140 320l3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9z" fill="#F4B042"/>
+</svg>

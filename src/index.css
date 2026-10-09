@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    background-color: #f7f2ec;
+    color: #342825;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-editorial {
+  font-family: 'Fraunces', Georgia, serif;
+  font-feature-settings: "liga", "kern";
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', 'Playball', cursive;
+}
+
+.font-cursive {
+  font-family: 'Playball', 'Great Vibes', cursive;
+}

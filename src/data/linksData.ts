@@ -1,0 +1,181 @@
+export interface LinkItem {
+  id: string;
+  title: string;
+  titleEn?: string;
+  description: string;
+  descriptionEn?: string;
+  category: 'aplicativo' | 'principal' | 'cursos' | 'ferramentas';
+  badge?: string;
+  badgeEn?: string;
+  badgeType?: 'featured' | 'exclusive' | 'new' | 'bestseller' | 'tool';
+  ctaText: string;
+  url: string;
+  iconType: string;
+  bgImage?: string;
+  objectPosition?: string;
+}
+
+export const MAIN_COURSE = {
+  id: 'curso-principal',
+  title: 'Os Segredos da Confeitaria nos EUA',
+  badge: 'CURSO PRINCIPAL',
+  badgeHighlight: '+4.000 alunas',
+  description: 'O treinamento que pega você do absoluto zero e te leva a profissional lucrativa — com tudo adaptado à realidade de quem vive nos Estados Unidos.',
+  bgImage: 'https://i.ibb.co/TBwb4BkB/patitour-2026-09-16-T142053-904.png',
+  objectPosition: 'center 10%',
+  features: [
+    '15 Módulos',
+    '90 Vídeo aulas',
+    '100% Online',
+    '1 ano de acesso',
+  ],
+  ctaText: 'Quero o curso principal',
+  url: 'https://andreiacakesusa.com/cursos',
+};
+
+export const COURSES: LinkItem[] = [
+  {
+    id: 'bem-casado',
+    title: 'O Segredo do Bem Casado que Vende',
+    titleEn: 'The Profitable Bem Casado Secret',
+    description: 'Bem casados vendem todos os dias — aprenda do zero a fazer e vender com lucro.',
+    descriptionEn: 'Wedding & celebration sweets that sell every day — learn from scratch to bake and profit.',
+    category: 'cursos',
+    badge: 'NOVO',
+    badgeEn: 'NEW',
+    badgeType: 'new',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'gift',
+    bgImage: 'https://i.postimg.cc/pVs1tkQT/patitour-2026-09-30T102033-270.png',
+    objectPosition: 'center 10%',
+  },
+  {
+    id: 'brigadeiro',
+    title: 'Brigadeiro Gourmet',
+    titleEn: 'Gourmet Brigadeiro',
+    description: '20 sabores campeões de venda, o ponto perfeito e o que usar nos EUA.',
+    descriptionEn: '20 bestselling gourmet truffle flavors, the perfect texture, and American ingredient swaps.',
+    category: 'cursos',
+    badge: 'MAIS PROCURADO',
+    badgeEn: 'MOST POPULAR',
+    badgeType: 'featured',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'sparkles',
+    bgImage: 'https://i.postimg.cc/SsDVkNMw/patitour-2026-09-25T110017-931.png',
+    objectPosition: 'center 12%',
+  },
+  {
+    id: 'caseirinhos',
+    title: 'Caseirinhos Gourmets',
+    titleEn: 'Gourmet Homemade Bundt Cakes',
+    description: 'Bolos caseiros e cucas — os campeões de venda do dia a dia nos EUA.',
+    descriptionEn: 'Everyday artisan bundt cakes & crumbles — the daily bestsellers across the USA.',
+    category: 'cursos',
+    badge: 'CAMPEÃO DE VENDAS',
+    badgeEn: 'BEST SELLER',
+    badgeType: 'bestseller',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'cake-slice',
+    bgImage: 'https://i.ibb.co/PzjYy63K/Whats-App-Image-2026-09-30-atjj-2-19-02-PM.jpg',
+    objectPosition: 'center center',
+  },
+  {
+    id: 'sem-gluten',
+    title: 'Receitas sem Glúten',
+    titleEn: 'Gluten-Free Baking Masterclass',
+    description: '25 receitas de bolos caseiros e recheios sem glúten, com textura perfeita.',
+    descriptionEn: '25 gluten-free homemade cakes and fillings with perfect moist texture.',
+    category: 'cursos',
+    badge: 'NICHO PREMIUM',
+    badgeEn: 'PREMIUM NICHE',
+    badgeType: 'exclusive',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'shield',
+    bgImage: 'https://i.postimg.cc/7ZGR9726/Whats-App-Image-2026-09-30-at-2-23-20-PM.jpg',
+    objectPosition: 'center 0%', // Shifted upward so Andreia's face is clearly visible
+  },
+  {
+    id: 'brownies',
+    title: 'Brownies Lucrativos nos EUA',
+    titleEn: 'Profitable Brownies in the USA',
+    description: 'A maneira mais fácil de iniciar na confeitaria, com pouco investimento.',
+    descriptionEn: 'The easiest, most cost-effective path to launch your bakery business with high ROI.',
+    category: 'cursos',
+    badge: 'QUERIDINHO DOS EUA',
+    badgeEn: 'USA FAVORITE',
+    badgeType: 'bestseller',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'box',
+    bgImage: 'https://i.postimg.cc/J7QCHbbc/Whats-App-Image-2026-09-30-at-10-38-02-AM.jpg',
+    objectPosition: 'center center',
+  },
+  {
+    id: 'pudins',
+    title: 'Pudins Gourmet',
+    titleEn: 'Gourmet Brazilian Flan',
+    description: '13 sabores de pudim e estratégias para vender e conquistar clientes.',
+    descriptionEn: '13 velvety flan flavors and marketing strategies to attract and retain clients.',
+    category: 'cursos',
+    badge: 'ALTO LUCRO',
+    badgeEn: 'HIGH PROFIT',
+    badgeType: 'exclusive',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'star',
+    bgImage: 'https://i.postimg.cc/ZKVm2rnp/patitour-2026-09-30T104150-803.png',
+    objectPosition: 'center 25%',
+  },
+  {
+    id: 'bolos-no-pote',
+    title: 'Bolos no Pote & Sobremesas',
+    titleEn: 'Cake in a Jar & Desserts',
+    description: 'Sobremesas comemorativas e bolos no pote para vender todos os dias.',
+    descriptionEn: 'Celebration dessert cups & cake jars engineered for everyday high-volume sales.',
+    category: 'cursos',
+    badge: 'VENDA EM ESCALA',
+    badgeEn: 'SCALE SALES',
+    badgeType: 'bestseller',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'cup',
+    bgImage: 'https://i.postimg.cc/7ZtxGgrB/Whats-App-Image-2026-09-29-at-9-47-13-PM.jpg',
+    objectPosition: 'center 30%',
+  },
+  {
+    id: 'cupcake-fatia',
+    title: 'Cupcake & Bolo de Fatia',
+    titleEn: 'Cupcakes & Cake by the Slice',
+    description: 'Aula prática de cupcakes e bolos de fatia para vender hoje mesmo nos EUA.',
+    descriptionEn: 'Hands-on training for high-margin cupcakes and cake slices ready to sell immediately.',
+    category: 'cursos',
+    badge: 'COMECE HOJE',
+    badgeEn: 'START TODAY',
+    badgeType: 'featured',
+    ctaText: 'Saiba mais',
+    url: 'https://andreiacakesusa.com/cursos',
+    iconType: 'flame',
+    bgImage: 'https://i.postimg.cc/KcT46sh7/Whats-App-Image-2026-09-30-at-2-19-02-PM.jpg',
+    objectPosition: 'center center',
+  },
+];
+
+export const TOOL_ITEM: LinkItem = {
+  id: 'planilha',
+  title: 'Planilha de Precificação',
+  titleEn: 'Bakery Pricing Calculator',
+  description: 'Calcule o preço justo de cada doce e garanta seu lucro — pare de cobrar no chute.',
+  descriptionEn: 'Calculate the accurate price for every sweet and lock in real profit margins.',
+  category: 'ferramentas',
+  badge: 'FERRAMENTA',
+  badgeEn: 'TOOL',
+  badgeType: 'tool',
+  ctaText: 'Garantir Planilha',
+  url: 'https://andreiacakesusa.com/cursos',
+  iconType: 'calculator',
+  bgImage: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
+};

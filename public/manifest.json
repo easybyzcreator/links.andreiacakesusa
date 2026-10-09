@@ -1,0 +1,15 @@
+{
+  "short_name": "Links Andréia",
+  "name": "Links Andréia Cakes USA",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/J4LrXrDj/patitour-2026-09-21T153506-732.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f7f2ec",
+  "theme_color": "#f7f2ec",
+  "display": "standalone"
+}
